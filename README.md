@@ -24,10 +24,7 @@ special_characters = ['@', '#', '$', '%', '=', ':', '?', '.', '/', '|', '~', '>'
 COMBINED_LIST = digits + upcase_characters + locase_characters + special_characters
 
 
-rand_digit = random.choice(digits)
-rand_upper = random.choice(upcase_characters)
-rand_lower = random.choice(locase_characters)
-rand_symbol = random.choice(special_characters)
+
 
 
 
