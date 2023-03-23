@@ -30,3 +30,19 @@ rand_symbol = random.choice(special_characters)
 
 temp_pass = rand_digit + rand_upper + rand_lower + rand_symbol
 
+for x in range(max_len - 4):
+    temp_pass = temp_pass + random.choice(COMBINED_LIST)
+
+   
+    temp_pass_list = array.array('u', temp_pass)
+    random.shuffle(temp_pass_list)
+
+
+password = ""
+for x in temp_pass_list:
+        password = password + x
+        
+
+print(password)
+
+
